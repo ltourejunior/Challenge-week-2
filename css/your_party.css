@@ -1,0 +1,231 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 100%; }
+
+.header {
+  position: relative; }
+
+a.your_party.html {
+  top: 0;
+  left: 0;
+  width: 224px;
+  height: 81px;
+  position: absolute; }
+
+.menu {
+  justify-content: space-between; }
+  .menu ul li {
+    margin-right: 37px;
+    color: #173493;
+    font-size: 12px;
+    border: 1px solid #173493;
+    list-style: none;
+    margin-right: 37px; }
+
+.head {
+  background: transparent url("../img/enchant-your-guests.jpg") center center/cover no-repeat no-repeat scroll;
+  position: relative;
+  height: 520px;
+  width: 100%;
+  align-content: center; }
+  .head h1 {
+    font-family: "Alegreya", serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    color: white;
+    font-size: 5em;
+    padding-top: 80px; }
+    @media screen and (max-width: 800px) {
+      .head h1 {
+        width: auto;
+        font-size: 240%; } }
+  .head p {
+    font-family: "Alegreya", serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    color: white;
+    font-size: 3em;
+    padding-top: 9px; }
+    @media screen and (max-width: 800px) {
+      .head p {
+        width: auto;
+        font-size: 160%; } }
+  .head button {
+    width: 270px;
+    height: 65;
+    font-family: "Alegreya", serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 2em;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+    border: 1px solid #407305;
+    background-color: #407305;
+    margin-top: 95px; }
+    @media screen and (max-width: 800px) {
+      .head button {
+        width: auto;
+        font-size: 100%; } }
+  .head a {
+    text-decoration: none;
+    color: white; }
+  .head .features {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 16px;
+    background-color: #173493;
+    margin-top: 18px;
+    text-align: center; }
+    @media screen and (max-width: 800px) {
+      .head .features {
+        width: auto;
+        font-size: 100%;
+        flex-direction: column; } }
+    .head .features li {
+      width: 250px;
+      height: 200;
+      padding-top: 17px;
+      padding-bottom: 17px;
+      padding-left: 64px;
+      padding-right: 64px;
+      list-style: none; }
+      @media screen and (max-width: 800px) {
+        .head .features li {
+          width: auto;
+          font-size: 100%;
+          margin-left: auto;
+          margin-right: auto;
+          width: 15em; } }
+      .head .features li img {
+        height: 65px;
+        width: 74px;
+        margin-left: auto;
+        margin-right: auto; }
+
+.packages {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75em; }
+  @media screen and (max-width: 1100px) {
+    .packages {
+      width: auto;
+      font-size: 100%;
+      width: 50em;
+      margin-top: 30px; } }
+  @media screen and (max-width: 800px) {
+    .packages {
+      width: auto;
+      font-size: 100%;
+      flex-direction: column;
+      width: 25em;
+      margin-top: 175px; } }
+  .packages span {
+    position: relative;
+    height: 305px;
+    width: 370px;
+    margin: 13px; }
+    .packages span p {
+      position: relative;
+      bottom: 0;
+      left: 0px;
+      color: white;
+      padding-top: 25px;
+      padding-bottom: 10px;
+      padding-left: 25px;
+      padding-right: 55px;
+      background: rgba(0, 0, 0, 0.2);
+      top: 205px;
+      font-size: 27px; }
+  .packages span.romance {
+    background: transparent url("../img/romance.jpg") center center/cover no-repeat no-repeat scroll; }
+  .packages span.visitors {
+    background: transparent url("../img/visitors.jpg") center center/cover no-repeat no-repeat scroll; }
+  .packages span.picnic {
+    background: transparent url("../img/picnic.jpg") center center/cover no-repeat no-repeat scroll; }
+  .packages span.grill {
+    background: transparent url("../img/grill.jpg") center center/cover no-repeat no-repeat scroll; }
+  .packages span.celebration {
+    background: transparent url("../img/celebration.jpg") center center/cover no-repeat no-repeat scroll; }
+  .packages span.kids {
+    background: transparent url("../img/kids.jpg") center center/cover no-repeat no-repeat scroll; }
+
+.whyus {
+  position: relative;
+  height: auto;
+  width: 100%;
+  align-content: center;
+  top: 175px;
+  background-color: #173493; }
+  @media screen and (max-width: 800px) {
+    .whyus {
+      width: auto;
+      font-size: 100%; } }
+  .whyus h1 {
+    font-family: "Alegreya", serif;
+    position: relative;
+    display: flex;
+    color: white;
+    font-size: 3em;
+    padding-top: 65px;
+    padding-left: 65px; }
+  .whyus ul {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    margin-top: 16px;
+    list-style: none; }
+    .whyus ul li {
+      margin-right: 40px; }
+      .whyus ul li h3 {
+        font-size: 16px;
+        font-weight: bold; }
+      .whyus ul li p {
+        font-size: 16px; }
+
+@media screen and (min-width: 800px) {
+  .menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 450;
+    height: 89px;
+    justify-content: space-between; }
+    .menu ul li {
+      display: inline-flex;
+      margin-right: 37px;
+      color: #173493;
+      font-size: 12px;
+      border: none; } }
+
+/*# sourceMappingURL=your_party.css.map */

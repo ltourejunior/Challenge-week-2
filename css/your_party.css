@@ -17,13 +17,39 @@ a.your_party.html {
 
 .menu {
   justify-content: space-between; }
+  @media screen and (min-width: 800px) {
+    .menu {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 450;
+      height: 89px;
+      justify-content: space-between; } }
   .menu ul li {
     margin-right: 37px;
-    color: #173493;
+    color: white;
     font-size: 12px;
+    padding: 5px;
     border: 1px solid #173493;
     list-style: none;
-    margin-right: 37px; }
+    margin-right: 37px;
+    background-color: #173493; }
+    @media screen and (min-width: 800px) {
+      .menu ul li {
+        display: inline-flex;
+        margin-right: 37px;
+        color: #173493;
+        font-size: 12px;
+        border: none;
+        background-color: transparent; } }
+    .menu ul li a {
+      text-decoration: none;
+      color: white; }
+      @media screen and (min-width: 800px) {
+        .menu ul li a {
+          color: #173493; } }
+    .menu ul li a:hover {
+      background-color: darkgray; }
 
 .head {
   background: transparent url("../img/enchant-your-guests.jpg") center center/cover no-repeat no-repeat scroll;
@@ -87,6 +113,9 @@ a.your_party.html {
   .head a {
     text-decoration: none;
     color: white; }
+  .head a:hover {
+    font-weight: bold;
+    text-decoration: underline; }
   .head .features {
     position: relative;
     display: flex;
@@ -151,7 +180,7 @@ a.your_party.html {
     position: relative;
     height: 305px;
     width: 370px;
-    margin: 13px; }
+    margin: 10px; }
     .packages span p {
       position: relative;
       bottom: 0;
@@ -182,7 +211,7 @@ a.your_party.html {
   height: auto;
   width: 100%;
   align-content: center;
-  top: 175px;
+  top: 125px;
   background-color: #173493; }
   @media screen and (max-width: 800px) {
     .whyus {
@@ -205,6 +234,9 @@ a.your_party.html {
     font-size: 14px;
     margin-top: 16px;
     list-style: none; }
+    @media screen and (max-width: 800px) {
+      .whyus ul {
+        flex-direction: column; } }
     .whyus ul li {
       margin-right: 40px; }
       .whyus ul li h3 {
@@ -212,20 +244,5 @@ a.your_party.html {
         font-weight: bold; }
       .whyus ul li p {
         font-size: 16px; }
-
-@media screen and (min-width: 800px) {
-  .menu {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 450;
-    height: 89px;
-    justify-content: space-between; }
-    .menu ul li {
-      display: inline-flex;
-      margin-right: 37px;
-      color: #173493;
-      font-size: 12px;
-      border: none; } }
 
 /*# sourceMappingURL=your_party.css.map */

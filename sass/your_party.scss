@@ -26,13 +26,39 @@ a.your_party.html{
 
 .menu{
     justify-content: space-between;
+    @media screen and (min-width: 800px) {
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 450;
+    height: 89px;
+    justify-content: space-between;}
         ul li{
             margin-right: 37px;
-            color:$colorblue;
+            color:white;
             font-size: 12px;
+            padding:5px;
             border: 1px solid $colorblue;
             list-style: none;
             margin-right: 37px;
+            background-color: $colorblue;
+            @media screen and (min-width: 800px) {
+            display: inline-flex;
+            margin-right: 37px;
+            color:$colorblue;
+            font-size: 12px;
+            border: none;
+            background-color: transparent;}
+
+            a{
+                text-decoration: none;
+                color: white;
+                @media screen and (min-width: 800px) {
+                color: $colorblue;}
+            }
+            a:hover{
+                background-color: darkgray;
+            }
 
 
         }
@@ -108,6 +134,10 @@ a.your_party.html{
              a{
                  text-decoration: none;
                  color: white;
+             }
+             a:hover{
+                 font-weight: bold;
+                 text-decoration: underline;
              }
 
              .features{
@@ -190,7 +220,7 @@ a.your_party.html{
         position: relative;
         height: 305px;
         width: 370px;
-        margin: 13px;
+        margin: 10px;
 
     
     p{
@@ -234,7 +264,7 @@ a.your_party.html{
     height:auto;
     width: 100%;
     align-content: center;
-    top: 175px;
+    top: 125px;
     background-color: $colorblue;
     @media screen and (max-width: 800px) {
                 width: auto;
@@ -260,6 +290,9 @@ a.your_party.html{
             font-size: 14px;
             margin-top: 16px;
             list-style: none;
+            @media screen and (max-width: 800px) {
+               flex-direction: column;
+            }
             
             li{
                 margin-right: 40px;
@@ -277,24 +310,4 @@ a.your_party.html{
             }
         }
 
-}
-
-@media screen and (min-width: 800px) {
-    
-.menu{
-    position: absolute;
-    top:0;
-    right: 0;
-    width: 450;
-    height: 89px;
-    justify-content: space-between;
-        ul li{
-            display: inline-flex;
-            margin-right: 37px;
-            color:$colorblue;
-            font-size: 12px;
-            border: none;
-
-        }
-}
 }
